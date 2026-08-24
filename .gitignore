@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.coverage
+htmlcov/
+dist/
+build/
+*.backup.*

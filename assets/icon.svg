@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">LeanCode Engineer icon</title>
+  <desc id="desc">Code brackets surrounding a verified narrowing path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B4D49"/>
+      <stop offset="1" stop-color="#0D2928"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="32" y1="32" x2="94" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8E986"/>
+      <stop offset="1" stop-color="#16A085"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+  <path d="M44 31 20 64l24 33" fill="none" stroke="#F4F8F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m84 31 24 33-24 33" fill="none" stroke="#F4F8F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M53 42h22L70 57H58l-5-15Z" fill="#5CCDB5" opacity=".72"/>
+  <path d="M58 57h12l-2 12h-8l-2-12Z" fill="#79D9C4" opacity=".84"/>
+  <path d="M60 69h8v8h-8z" fill="#A5E7D8"/>
+  <path d="m53 82 8 8 16-20" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
