@@ -1,0 +1,10 @@
+interface:
+  display_name: "LeanCode Engineer"
+  short_description: "Lean, secure software engineering guidance"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#16A085"
+  default_prompt: "Use $lean-code-engineer to implement this change safely with minimal context."
+
+policy:
+  allow_implicit_invocation: true

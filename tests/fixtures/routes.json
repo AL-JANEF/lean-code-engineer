@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ordinary feature",
+    "prompt": "Implement a small helper function and focused unit test.",
+    "applicable": true,
+    "expected_references": ["references/engineering.md"],
+    "expected_modules": []
+  },
+  {
+    "name": "authentication regression",
+    "prompt": "Fix the auth bypass regression in the backend API endpoint.",
+    "applicable": true,
+    "expected_references": ["references/security.md", "references/debugging.md"],
+    "expected_modules": ["modules/security/MODULE.md"]
+  },
+  {
+    "name": "flaky integration test",
+    "prompt": "Debug a flaky integration test caused by a race in the worker queue.",
+    "applicable": true,
+    "expected_references": ["references/debugging.md", "references/verification.md"],
+    "expected_modules": ["modules/testing/MODULE.md"]
+  },
+  {
+    "name": "database migration",
+    "prompt": "Design a migration strategy for a database schema change with rollback.",
+    "applicable": true,
+    "expected_references": ["references/architecture.md"],
+    "expected_modules": ["modules/database/MODULE.md"]
+  },
+  {
+    "name": "accessible component",
+    "prompt": "Implement an accessible frontend component with keyboard behavior.",
+    "applicable": true,
+    "expected_references": ["references/engineering.md"],
+    "expected_modules": ["modules/frontend/MODULE.md"]
+  },
+  {
+    "name": "parallel investigation",
+    "prompt": "Delegate two independent investigations to parallel agents in a large repo.",
+    "applicable": true,
+    "expected_references": ["references/agent-orchestration.md", "references/context-efficiency.md"],
+    "expected_modules": []
+  }
+]

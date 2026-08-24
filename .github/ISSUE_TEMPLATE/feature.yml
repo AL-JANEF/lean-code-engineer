@@ -1,0 +1,37 @@
+name: Feature request
+description: Propose a measured improvement to behavior, compatibility, or context cost.
+title: "[Feature]: "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What recurring decision or failure is not handled well today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Observable outcome
+      description: What should become possible or measurably better?
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Proposed layer
+      options:
+        - Core SKILL.md
+        - Specialist reference
+        - Domain module
+        - Host adapter
+        - Contributor tooling
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: cost
+    attributes:
+      label: Context and maintenance cost
+      description: Explain why the benefit justifies recurring or conditional context.

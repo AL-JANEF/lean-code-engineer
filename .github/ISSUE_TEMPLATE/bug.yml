@@ -1,0 +1,41 @@
+name: Bug report
+description: Report reproducible behavior that violates the documented contract.
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets, private code, personal data, or vulnerability details. Use private vulnerability reporting for security issues.
+  - type: input
+    id: version
+    attributes:
+      label: LeanCode Engineer version
+      placeholder: 0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host and version
+      placeholder: Claude Code 2.x on macOS
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: State the observable difference and impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Use a public or sanitized fixture.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification evidence
+      description: Include relevant commands and concise output with sensitive values removed.

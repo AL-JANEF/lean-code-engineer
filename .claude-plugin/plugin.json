@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "lean-code-engineer",
+  "displayName": "LeanCode Engineer",
+  "description": "Correctness-first software engineering with selective context loading.",
+  "version": "0.1.0",
+  "author": {
+    "name": "LeanCode Engineer Contributors"
+  },
+  "license": "MIT",
+  "defaultEnabled": true,
+  "keywords": [
+    "agent-skill",
+    "claude-code",
+    "software-engineering",
+    "progressive-disclosure",
+    "context-efficiency"
+  ]
+}

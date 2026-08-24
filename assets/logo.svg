@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">LeanCode Engineer</title>
+  <desc id="desc">LeanCode Engineer wordmark with code brackets and a verified narrowing path.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="720" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143C3A"/>
+      <stop offset="1" stop-color="#0B2524"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="36" y1="38" x2="125" y2="137" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8E986"/>
+      <stop offset="1" stop-color="#16A085"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="716" height="176" rx="34" fill="url(#panel)" stroke="#2B5A56" stroke-width="4"/>
+  <g transform="translate(24 24)">
+    <rect width="132" height="132" rx="30" fill="#0B2928" stroke="#2B615C" stroke-width="3"/>
+    <path d="M46 31 20 66l26 35" fill="none" stroke="#F4F8F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m86 31 26 35-26 35" fill="none" stroke="#F4F8F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M55 43h22l-5 15H60l-5-15Z" fill="#52C8AF" opacity=".72"/>
+    <path d="M60 58h12l-2 12h-8l-2-12Z" fill="#7ADAC5"/>
+    <path d="m55 85 8 8 17-21" fill="none" stroke="url(#mark)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="184" y="84" fill="#F4F8F6" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="54" font-weight="750" letter-spacing="-2">LeanCode</text>
+  <text x="185" y="128" fill="#8EDFCC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="30" font-weight="520" letter-spacing="5">ENGINEER</text>
+  <path d="M602 56h72M620 74h54M638 92h36" stroke="#5CCDB5" stroke-width="5" stroke-linecap="round" opacity=".62"/>
+  <circle cx="602" cy="56" r="5" fill="#B8E986"/>
+  <circle cx="620" cy="74" r="5" fill="#75D8C2"/>
+  <circle cx="638" cy="92" r="5" fill="#16A085"/>
+</svg>

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "budgets": {
+    "core_estimated_tokens": 1600,
+    "minimum_median_route_savings": 0.55
+  },
+  "activation": {
+    "positive": [
+      "implement",
+      "fix",
+      "debug",
+      "refactor",
+      "review code",
+      "code review",
+      "test",
+      "api",
+      "endpoint",
+      "migration",
+      "component",
+      "build failure",
+      "performance regression",
+      "delegate",
+      "agent team"
+    ],
+    "negative": [
+      "marketing email",
+      "social post",
+      "travel itinerary",
+      "translate this",
+      "summarize this article",
+      "creative story"
+    ]
+  },
+  "references": [
+    {
+      "path": "references/security.md",
+      "priority": 100,
+      "signals": ["security", "auth", "auth bypass", "authentication", "authorization", "permission", "secret", "credential", "token", "injection", "xss", "ssrf", "path traversal", "untrusted", "vulnerability", "encrypt"]
+    },
+    {
+      "path": "references/debugging.md",
+      "priority": 90,
+      "signals": ["bug", "fix", "debug", "regression", "flaky", "failure", "crash", "error", "broken", "timeout", "race"]
+    },
+    {
+      "path": "references/architecture.md",
+      "priority": 80,
+      "signals": ["architecture", "design", "boundary", "service split", "migration strategy", "adr", "cross-component", "dependency direction"]
+    },
+    {
+      "path": "references/verification.md",
+      "priority": 70,
+      "signals": ["verify", "verification", "test strategy", "confidence", "acceptance criteria", "e2e", "integration test", "release gate"]
+    },
+    {
+      "path": "references/context-efficiency.md",
+      "priority": 60,
+      "signals": ["large repo", "monorepo", "context", "token", "too much output", "compact", "progressive disclosure"]
+    },
+    {
+      "path": "references/agent-orchestration.md",
+      "priority": 50,
+      "signals": ["subagent", "agent team", "parallel agents", "delegate", "parallelize", "multi-agent"]
+    },
+    {
+      "path": "references/engineering.md",
+      "priority": 10,
+      "signals": ["implement", "refactor", "feature", "code change", "library", "function", "class"]
+    }
+  ],
+  "modules": [
+    {
+      "path": "modules/frontend/MODULE.md",
+      "priority": 80,
+      "signals": ["frontend", "react", "vue", "angular", "browser", "component", "css", "accessibility", "keyboard", "ui", "client-side"]
+    },
+    {
+      "path": "modules/backend/MODULE.md",
+      "priority": 80,
+      "signals": ["backend", "api", "endpoint", "service", "worker", "job", "webhook", "queue", "server"]
+    },
+    {
+      "path": "modules/database/MODULE.md",
+      "priority": 90,
+      "signals": ["database", "sql", "query", "schema", "migration", "transaction", "index", "postgres", "mysql"]
+    },
+    {
+      "path": "modules/devops/MODULE.md",
+      "priority": 80,
+      "signals": ["devops", "ci", "pipeline", "container", "docker", "deploy", "deployment", "rollback", "github actions"]
+    },
+    {
+      "path": "modules/security/MODULE.md",
+      "priority": 100,
+      "signals": ["security review", "threat model", "vulnerability", "auth", "auth bypass", "credential leak", "incident"]
+    },
+    {
+      "path": "modules/testing/MODULE.md",
+      "priority": 70,
+      "signals": ["test suite", "test strategy", "integration test", "e2e", "fixture", "flaky", "flaky test", "coverage"]
+    },
+    {
+      "path": "modules/performance/MODULE.md",
+      "priority": 80,
+      "signals": ["performance", "latency", "throughput", "memory", "cpu", "bundle size", "slow", "profile", "benchmark"]
+    },
+    {
+      "path": "modules/cloud/MODULE.md",
+      "priority": 80,
+      "signals": ["cloud", "aws", "azure", "gcp", "iam", "region", "vpc", "managed service", "rpo", "rto"]
+    }
+  ]
+}
